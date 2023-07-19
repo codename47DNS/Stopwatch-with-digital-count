@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="stopwatch">
+        <div>
+            <h2>Hour</h2>
+
+            <div class="hour">
+                <div class="circle" style="--color:#6bff3e;">
+                    <div class="mirror">
+
+                    </div>
+                    <div class="count">
+                        <span>00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <h2>Minute</h2>
+
+            <div class="min">
+                <div class="circle" style="--color:#eff3cd;">
+                    <div class="mirror">
+
+                    </div>
+                    <div class="count">
+                        <span>00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <h2>Second</h2>
+
+            <div class="sec">
+                <div class="circle" style="--color:#ff8300;">
+                    <div class="mirror">
+
+                    </div>
+                    <div class="count">
+                        <span>00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <h2>Milli Second</h2>
+
+            <div class="ms">
+                <div class="circle" style="--color:#ff3042;">
+                    <div class="mirror">
+                        
+                    </div>
+                    <div class="count">
+                        <span>00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="action">
+        <button class="start-btn">
+            START
+        </button>
+
+        <button class="reset-btn d-none">
+            RESET
+        </button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
